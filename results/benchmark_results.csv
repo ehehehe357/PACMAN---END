@@ -1,0 +1,49 @@
+Map,Algorithm,Success,Steps,Cost,Nodes_Expanded,Time_ms
+tinyMaze,DFS,True,69,69,92,0.17
+tinyMaze,BFS,True,51,51,101,0.158
+tinyMaze,UCS,True,51,51,101,0.172
+tinyMaze,Greedy,True,57,57,80,0.142
+tinyMaze,A*,True,51,51,101,0.177
+tinyMaze,A*(h=0),True,51,51,101,0.161
+mediumMaze,DFS,True,96,96,185,0.276
+mediumMaze,BFS,True,74,74,190,0.268
+mediumMaze,UCS,True,74,74,190,0.312
+mediumMaze,Greedy,True,74,74,150,0.258
+mediumMaze,A*,True,74,74,190,0.341
+mediumMaze,A*(h=0),True,74,74,190,0.306
+bigMaze,DFS,True,97,97,131,0.428
+bigMaze,BFS,True,35,35,249,0.574
+bigMaze,UCS,True,35,35,249,0.413
+bigMaze,Greedy,True,53,53,59,0.138
+bigMaze,A*,True,35,35,64,0.131
+bigMaze,A*(h=0),True,35,35,249,0.429
+costMaze (Small),DFS,True,8,20,8,0.019
+costMaze (Small),BFS,True,8,20,17,0.029
+costMaze (Small),UCS,True,12,12,17,0.033
+costMaze (Small),Greedy,True,8,20,8,0.018
+costMaze (Small),A*,True,12,12,16,0.032
+costMaze (Small),A*(h=0),True,12,12,17,0.03
+costMaze_medium,DFS,True,62,82,81,0.129
+costMaze_medium,BFS,True,22,58,76,0.104
+costMaze_medium,UCS,True,40,40,96,0.161
+costMaze_medium,Greedy,True,22,58,22,0.042
+costMaze_medium,A*,True,40,40,74,0.134
+costMaze_medium,A*(h=0),True,40,40,96,0.16
+costMaze_big,DFS,True,30,66,30,0.054
+costMaze_big,BFS,True,30,66,131,0.173
+costMaze_big,UCS,True,38,38,136,0.224
+costMaze_big,Greedy,True,30,66,30,0.058
+costMaze_big,A*,True,38,38,46,0.086
+costMaze_big,A*(h=0),True,38,38,136,0.222
+adv_nosolution,DFS,False,0,0,8,0.02
+adv_nosolution,BFS,False,0,0,8,0.019
+adv_nosolution,UCS,False,0,0,8,0.02
+adv_nosolution,Greedy,False,0,0,8,0.018
+adv_nosolution,A*,False,0,0,8,0.019
+adv_nosolution,A*(h=0),False,0,0,8,0.017
+foodMaze (Multi-Goal),DFS,True,96,96,96,0.145
+foodMaze (Multi-Goal),BFS,True,30,30,7211,11.692
+foodMaze (Multi-Goal),UCS,True,30,30,7211,14.39
+foodMaze (Multi-Goal),Greedy,True,34,34,2274,6.468
+foodMaze (Multi-Goal),A*,True,30,30,2308,7.581
+foodMaze (Multi-Goal),A*(h=0),True,30,30,7211,15.632
